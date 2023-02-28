@@ -6,6 +6,9 @@
     padding: 0;
     margin: 0;
 }
+html {
+    font-size: 62.5%;
+}
 
 .header {
     width: 100%;
@@ -13,4 +16,28 @@
     background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)),
                 url(images/bg.jpg) fixed center no-repeat;
     background-size: cover;
+}
+
+.hamburger-menu {
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: #67b67b;
+    position: fixed;
+    top: 3rem;
+    right: 3rem;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    width: 3rem;
+    height: 0.2rem;
+    background-color: #eee;
+    margin: 0.2rem 0;
 }
