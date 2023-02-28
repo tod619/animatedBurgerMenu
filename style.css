@@ -68,3 +68,34 @@ html {
     border-radius: 50%;
     transform: scale(150);
 }
+
+.nav-list {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav-item {
+    margin: 1.5vh 0;
+}
+
+.nav-link {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    font-size: 3.2rem;
+    letter-spacing: .6rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: letter-spacing 0.2s;
+}
+
+.nav-link:hover {
+    letter-spacing: 1rem;
+}
