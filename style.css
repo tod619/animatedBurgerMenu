@@ -33,6 +33,7 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    z-index: 300;
 }
 
 .line {
@@ -40,4 +41,16 @@ html {
     height: 0.2rem;
     background-color: #eee;
     margin: 0.2rem 0;
+}
+
+
+.bg-cover {
+    background-color: rgba(103, 182, 123, 0.9);
+    width: 4.5rem;
+    height: 4.5rem;
+    position: fixed;
+    top: 3.5rem;
+    right: 3.5rem;
+    z-index: 100;
+    border-radius: 50%;
 }
