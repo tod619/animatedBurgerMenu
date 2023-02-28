@@ -41,6 +41,19 @@ html {
     height: 0.2rem;
     background-color: #eee;
     margin: 0.2rem 0;
+    transform-origin: right;
+}
+
+.line-1 {
+    transform: rotate(-40deg) translateY(-0.5rem);
+}
+
+.line-2 {
+    opacity: 0;
+}
+
+.line-3 {
+    transform: rotate(40deg) translateY(0.5rem);
 }
 
 
@@ -53,4 +66,5 @@ html {
     right: 3.5rem;
     z-index: 100;
     border-radius: 50%;
+    transform: scale(150);
 }
