@@ -42,17 +42,18 @@ html {
     background-color: #eee;
     margin: 0.2rem 0;
     transform-origin: right;
+    transition: all 0.5s;
 }
 
-.line-1 {
+.change .line-1 {
     transform: rotate(-40deg) translateY(-0.5rem);
 }
 
-.line-2 {
+.change .line-2 {
     opacity: 0;
 }
 
-.line-3 {
+.change .line-3 {
     transform: rotate(40deg) translateY(0.5rem);
 }
 
