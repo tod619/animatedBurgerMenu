@@ -34,6 +34,11 @@ html {
     align-items: center;
     justify-content: center;
     z-index: 300;
+    transition: all 0.5s;
+}
+
+.change .hamburger-menu {
+    background-color: #eef0eb;
 }
 
 .line {
@@ -47,6 +52,7 @@ html {
 
 .change .line-1 {
     transform: rotate(-40deg) translateY(-0.5rem);
+    background-color: #67b67b;
 }
 
 .change .line-2 {
@@ -55,6 +61,7 @@ html {
 
 .change .line-3 {
     transform: rotate(40deg) translateY(0.5rem);
+    background-color: #67b67b;
 }
 
 
@@ -67,7 +74,11 @@ html {
     right: 3.5rem;
     z-index: 100;
     border-radius: 50%;
-    transform: scale(150);
+    transition: transform 0.5s;
+}
+
+.change .bg-cover {
+    transform: scale(150)
 }
 
 .nav-list {
@@ -80,6 +91,14 @@ html {
     align-items: center;
     justify-content: center;
     list-style-type: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s;
+}
+
+.change .nav-list {
+    opacity: 1;
+    visibility: visible;
 }
 
 .nav-item {
